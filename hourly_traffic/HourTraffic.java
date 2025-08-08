@@ -51,7 +51,7 @@ public class HourTraffic {
         Job job = Job.getInstance(conf, "Hourly Web Traffic");
         job.setJarByClass(HourTraffic.class);
         job.setMapperClass(HourMapper.class);
-        job.setCombinerClass(HourReducer.class);  // Optional: Use reducer as combiner
+        job.setCombinerClass(HourReducer.class);
         job.setReducerClass(HourReducer.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);

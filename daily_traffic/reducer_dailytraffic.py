@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import sys
 
 # Initialize variables to track current date and running total
@@ -26,3 +25,4 @@ for line in sys.stdin:
 # Output the final date's total (since the loop doesn't output the last group)
 if current_date:
     print(f"{current_date}\t{total_requests}")
+

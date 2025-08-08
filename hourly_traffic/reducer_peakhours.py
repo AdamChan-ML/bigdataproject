@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import sys
 from itertools import groupby
 from operator import itemgetter
